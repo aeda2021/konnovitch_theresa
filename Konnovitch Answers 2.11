@@ -1,0 +1,25 @@
+Q1: We will see a J-shaped curve. The test statistic will be smallest for the outcome that is most likely (.2), and will get larger when less probable.
+
+Q2: Since the bounds of the 95% CI are the values of the parameter that when compared with the MLE, 
+register a chi-squared statistic of 1.92; when we set the abline to 1.92, it intersects the graph at around 0.1 and 0.4
+
+Q3: The 95% CI here are 0.149 and 0.259
+
+Q4: The three distributions have different degreesof freedom/variables; By adding extra variables to a model you are adding more degress of freedom; So, even when they are totally unrelated to the outcome variable, the likelihood of the model will tend to increase, as seen in each of the 3 histograms. 
+
+Q5: A p-value is the liklihood of getting results, if the null hypotehsis is correct; therefore, smaller p-values are more favorable because they support the alternative hypothesis (what most scientists want to happen!!) For a liklihood ratio test we are comparing models. The test statistic is the chi square distribution. Null hypothesis is that smaller models (aka less parameters/variables) are better; but if the chi square (test stat) is large, then we reject the null hypothesis because in this case the larger model is actually better. 
+
+Q6:
+a) what does each chi-square statistic and p-value refer to? Each chi-square stat is the liklihood, so model 2 is the most likely since it is very large, with a very small p-value so we can reject the null hypothesis that smaller models are better; 2 is the best model
+b) What null hypotheses are being tested? Null hypothesis is that small model is better
+c) Which variable(s) offer(s) significant predictive power? Model 2 has the highest value, making Sex offer significant predictive power
+
+Q8: Two models are nested if one model contains all the terms of the other. Therefore, since the models contain different terms, they are not nested. 
+
+Q9: delta AICc is the AICc values - the best fit AICc. The best model has the lowest AICc, so the delta AIC for the best model would be 0. 
+
+Q10: In my case, the best model was Fare+Pclass. This makes the variables Fare and Pclass are the most important variables. My assumption was that class and fare would correlate with richer/more privileged people, who may have been prioritized when the ship sank :(
+
+Q11: Negative binomial had a lower AIC and a higher liklihood, making it the best distribution
+
+Q12: The first approach wasn't great because there was no rationale behind it, and the scientist alluded to causation, and wants to collect data until it fits (which it eventually it will because more variables = more liklihood); but the second situation they hypothesize variables that correlate through research, then go and collect relevant data. I think that this technique can be useful, especially in hypothesis generation, but also can be harmful if used improperly 
