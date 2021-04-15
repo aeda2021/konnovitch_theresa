@@ -1,5 +1,5 @@
 #######################################
-##AEDA Machine Learning assignment  ##
+##AEDA Machine Learning assignment  ###
 ##Based on scripts from Lucas 2020 ##
 ####################################
 install.packages("dplyr")
